@@ -41,11 +41,11 @@ p{
     margin: 0 auto;
     background-color: var(--grey);
     padding: 10px 50px 50px 50px;
-    border: 3px solid var(--color-primary);
+    border: 3px solid var(--dark-grey);
     border-radius: 5px;
 }
 .quiz-box h1{
-    background-color: var(--color-primary);
+    background-color: var(--light-blue);
     font-size: 4rem;
     text-align: center;
     color: var(--white);
@@ -67,14 +67,15 @@ p{
 .quiz-header #count-down{
     font-size: 1.6rem;
     font-weight: 700;
-    background-color: orangered;
+    background-color: rgb(210, 149, 127);
     padding: 5px;
-    margin: 1px;
+    margin: 2px;
     color: var(--white);
     border-radius: 5px;
 }
 .quiz-box #question{
     font-size: 1.8rem;
+    margin-top: 2rem;
 }
 .buttons{
     margin: 1.5rem 0 4rem 0;
